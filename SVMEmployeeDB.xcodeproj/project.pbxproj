@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29FBE8A1E81318800F7B4B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBE891E81318800F7B4B9 /* main.m */; };
+		F29FBE8D1E81318800F7B4B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBE8C1E81318800F7B4B9 /* AppDelegate.m */; };
+		F29FBE931E81318800F7B4B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29FBE911E81318800F7B4B9 /* Main.storyboard */; };
+		F29FBE961E81318800F7B4B9 /* SVMEmployeeDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F29FBE941E81318800F7B4B9 /* SVMEmployeeDB.xcdatamodeld */; };
+		F29FBE981E81318800F7B4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29FBE971E81318800F7B4B9 /* Assets.xcassets */; };
+		F29FBE9B1E81318800F7B4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29FBE991E81318800F7B4B9 /* LaunchScreen.storyboard */; };
+		F29FBEAA1E81319E00F7B4B9 /* SVMEmployeeListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEA51E81319E00F7B4B9 /* SVMEmployeeListVC.m */; };
+		F29FBEAB1E81319E00F7B4B9 /* SVMEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEA91E81319E00F7B4B9 /* SVMEmployee.m */; };
+		F29FBEAE1E81340F00F7B4B9 /* SVMEmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEAD1E81340F00F7B4B9 /* SVMEmployeeCell.m */; };
+		F29FBEB21E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEB11E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m */; };
+		F29FBEBA1E814A1800F7B4B9 /* employee.json in Resources */ = {isa = PBXBuildFile; fileRef = F29FBEB91E814A1800F7B4B9 /* employee.json */; };
+		F29FBEBF1E81673900F7B4B9 /* SVMCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEBE1E81673900F7B4B9 /* SVMCoreDataHelper.m */; };
+		F29FBECF1E816FB800F7B4B9 /* SVMSharedSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBECE1E816FB800F7B4B9 /* SVMSharedSettings.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F29FBE851E81318800F7B4B9 /* SVMEmployeeDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVMEmployeeDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29FBE891E81318800F7B4B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F29FBE8B1E81318800F7B4B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F29FBE8C1E81318800F7B4B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F29FBE921E81318800F7B4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F29FBE951E81318800F7B4B9 /* SVMEmployeeDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SVMEmployeeDB.xcdatamodel; sourceTree = "<group>"; };
+		F29FBE971E81318800F7B4B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F29FBE9A1E81318800F7B4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F29FBE9C1E81318800F7B4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29FBEA41E81319E00F7B4B9 /* SVMEmployeeListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMEmployeeListVC.h; sourceTree = "<group>"; };
+		F29FBEA51E81319E00F7B4B9 /* SVMEmployeeListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMEmployeeListVC.m; sourceTree = "<group>"; };
+		F29FBEA81E81319E00F7B4B9 /* SVMEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMEmployee.h; sourceTree = "<group>"; };
+		F29FBEA91E81319E00F7B4B9 /* SVMEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMEmployee.m; sourceTree = "<group>"; };
+		F29FBEAC1E81340F00F7B4B9 /* SVMEmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMEmployeeCell.h; sourceTree = "<group>"; };
+		F29FBEAD1E81340F00F7B4B9 /* SVMEmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMEmployeeCell.m; sourceTree = "<group>"; };
+		F29FBEB01E81392A00F7B4B9 /* SVMEmployeeDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMEmployeeDetailsVC.h; sourceTree = "<group>"; };
+		F29FBEB11E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMEmployeeDetailsVC.m; sourceTree = "<group>"; };
+		F29FBEB91E814A1800F7B4B9 /* employee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employee.json; sourceTree = "<group>"; };
+		F29FBEBD1E81673900F7B4B9 /* SVMCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMCoreDataHelper.h; sourceTree = "<group>"; };
+		F29FBEBE1E81673900F7B4B9 /* SVMCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMCoreDataHelper.m; sourceTree = "<group>"; };
+		F29FBECD1E816FB800F7B4B9 /* SVMSharedSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMSharedSettings.h; sourceTree = "<group>"; };
+		F29FBECE1E816FB800F7B4B9 /* SVMSharedSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMSharedSettings.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29FBE821E81318800F7B4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29FBE7C1E81318800F7B4B9 = {
+			isa = PBXGroup;
+			children = (
+				F29FBE871E81318800F7B4B9 /* SVMEmployeeDB */,
+				F29FBE861E81318800F7B4B9 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		F29FBE861E81318800F7B4B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBE851E81318800F7B4B9 /* SVMEmployeeDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29FBE871E81318800F7B4B9 /* SVMEmployeeDB */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBE8B1E81318800F7B4B9 /* AppDelegate.h */,
+				F29FBE8C1E81318800F7B4B9 /* AppDelegate.m */,
+				F29FBEBB1E81672C00F7B4B9 /* Helper Classes */,
+				F29FBEA21E81319E00F7B4B9 /* Classes */,
+				F29FBEA61E81319E00F7B4B9 /* Models */,
+				F29FBE911E81318800F7B4B9 /* Main.storyboard */,
+				F29FBE971E81318800F7B4B9 /* Assets.xcassets */,
+				F29FBE991E81318800F7B4B9 /* LaunchScreen.storyboard */,
+				F29FBE9C1E81318800F7B4B9 /* Info.plist */,
+				F29FBE941E81318800F7B4B9 /* SVMEmployeeDB.xcdatamodeld */,
+				F29FBE881E81318800F7B4B9 /* Supporting Files */,
+			);
+			path = SVMEmployeeDB;
+			sourceTree = "<group>";
+		};
+		F29FBE881E81318800F7B4B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBE891E81318800F7B4B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F29FBEA21E81319E00F7B4B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBEA31E81319E00F7B4B9 /* SVMEmployeeListVC */,
+				F29FBEAF1E81391800F7B4B9 /* SVMEmployeeDetailsVC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F29FBEA31E81319E00F7B4B9 /* SVMEmployeeListVC */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBEA41E81319E00F7B4B9 /* SVMEmployeeListVC.h */,
+				F29FBEA51E81319E00F7B4B9 /* SVMEmployeeListVC.m */,
+				F29FBEAC1E81340F00F7B4B9 /* SVMEmployeeCell.h */,
+				F29FBEAD1E81340F00F7B4B9 /* SVMEmployeeCell.m */,
+			);
+			path = SVMEmployeeListVC;
+			sourceTree = "<group>";
+		};
+		F29FBEA61E81319E00F7B4B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBEB91E814A1800F7B4B9 /* employee.json */,
+				F29FBEA71E81319E00F7B4B9 /* SVMEmployee */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F29FBEA71E81319E00F7B4B9 /* SVMEmployee */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBEA81E81319E00F7B4B9 /* SVMEmployee.h */,
+				F29FBEA91E81319E00F7B4B9 /* SVMEmployee.m */,
+			);
+			path = SVMEmployee;
+			sourceTree = "<group>";
+		};
+		F29FBEAF1E81391800F7B4B9 /* SVMEmployeeDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBEB01E81392A00F7B4B9 /* SVMEmployeeDetailsVC.h */,
+				F29FBEB11E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m */,
+			);
+			path = SVMEmployeeDetailsVC;
+			sourceTree = "<group>";
+		};
+		F29FBEBB1E81672C00F7B4B9 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBECC1E816FAE00F7B4B9 /* SVMSharedSettings */,
+				F29FBEBC1E81672C00F7B4B9 /* SVMCoreDataHelper */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		F29FBEBC1E81672C00F7B4B9 /* SVMCoreDataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBEBD1E81673900F7B4B9 /* SVMCoreDataHelper.h */,
+				F29FBEBE1E81673900F7B4B9 /* SVMCoreDataHelper.m */,
+			);
+			path = SVMCoreDataHelper;
+			sourceTree = "<group>";
+		};
+		F29FBECC1E816FAE00F7B4B9 /* SVMSharedSettings */ = {
+			isa = PBXGroup;
+			children = (
+				F29FBECD1E816FB800F7B4B9 /* SVMSharedSettings.h */,
+				F29FBECE1E816FB800F7B4B9 /* SVMSharedSettings.m */,
+			);
+			path = SVMSharedSettings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29FBE841E81318800F7B4B9 /* SVMEmployeeDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29FBE9F1E81318800F7B4B9 /* Build configuration list for PBXNativeTarget "SVMEmployeeDB" */;
+			buildPhases = (
+				F29FBE811E81318800F7B4B9 /* Sources */,
+				F29FBE821E81318800F7B4B9 /* Frameworks */,
+				F29FBE831E81318800F7B4B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVMEmployeeDB;
+			productName = SVMEmployeeDB;
+			productReference = F29FBE851E81318800F7B4B9 /* SVMEmployeeDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29FBE7D1E81318800F7B4B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SVM;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = svmLogics;
+				TargetAttributes = {
+					F29FBE841E81318800F7B4B9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F29FBE801E81318800F7B4B9 /* Build configuration list for PBXProject "SVMEmployeeDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29FBE7C1E81318800F7B4B9;
+			productRefGroup = F29FBE861E81318800F7B4B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29FBE841E81318800F7B4B9 /* SVMEmployeeDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29FBE831E81318800F7B4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29FBE9B1E81318800F7B4B9 /* LaunchScreen.storyboard in Resources */,
+				F29FBEBA1E814A1800F7B4B9 /* employee.json in Resources */,
+				F29FBE981E81318800F7B4B9 /* Assets.xcassets in Resources */,
+				F29FBE931E81318800F7B4B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29FBE811E81318800F7B4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29FBEAE1E81340F00F7B4B9 /* SVMEmployeeCell.m in Sources */,
+				F29FBEAB1E81319E00F7B4B9 /* SVMEmployee.m in Sources */,
+				F29FBEB21E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m in Sources */,
+				F29FBE8D1E81318800F7B4B9 /* AppDelegate.m in Sources */,
+				F29FBEAA1E81319E00F7B4B9 /* SVMEmployeeListVC.m in Sources */,
+				F29FBECF1E816FB800F7B4B9 /* SVMSharedSettings.m in Sources */,
+				F29FBE961E81318800F7B4B9 /* SVMEmployeeDB.xcdatamodeld in Sources */,
+				F29FBE8A1E81318800F7B4B9 /* main.m in Sources */,
+				F29FBEBF1E81673900F7B4B9 /* SVMCoreDataHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F29FBE911E81318800F7B4B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29FBE921E81318800F7B4B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F29FBE991E81318800F7B4B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29FBE9A1E81318800F7B4B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29FBE9D1E81318800F7B4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29FBE9E1E81318800F7B4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29FBEA01E81318800F7B4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SVMEmployeeDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.svmLogics.SVMEmployeeDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F29FBEA11E81318800F7B4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SVMEmployeeDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.svmLogics.SVMEmployeeDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29FBE801E81318800F7B4B9 /* Build configuration list for PBXProject "SVMEmployeeDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29FBE9D1E81318800F7B4B9 /* Debug */,
+				F29FBE9E1E81318800F7B4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29FBE9F1E81318800F7B4B9 /* Build configuration list for PBXNativeTarget "SVMEmployeeDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29FBEA01E81318800F7B4B9 /* Debug */,
+				F29FBEA11E81318800F7B4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F29FBE941E81318800F7B4B9 /* SVMEmployeeDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F29FBE951E81318800F7B4B9 /* SVMEmployeeDB.xcdatamodel */,
+			);
+			currentVersion = F29FBE951E81318800F7B4B9 /* SVMEmployeeDB.xcdatamodel */;
+			path = SVMEmployeeDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F29FBE7D1E81318800F7B4B9 /* Project object */;
+}
