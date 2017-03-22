@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class SVMEmployee;
+#import "Employee+CoreDataProperties.h"
 
 @interface SVMEmployeeDetailsVC : UIViewController
 
-@property (nonatomic, strong) SVMEmployee *employee;
+@property (nonatomic, strong) Employee *employee;
 
 @end

@@ -8,7 +8,7 @@
 
 #import "SVMEmployeeListVC.h"
 
-#import "SVMEmployee.h"
+#import "Employee+CoreDataProperties.h"
 #import "SVMEmployeeCell.h"
 
 #import "SVMEmployeeDetailsVC.h"
@@ -55,7 +55,7 @@
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    SVMEmployee *employee = arrDatasource[indexPath.row];
+    Employee *employee = arrDatasource[indexPath.row];
     
     SVMEmployeeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SVMEmployeeCell"];
     

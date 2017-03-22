@@ -14,12 +14,11 @@
 		F29FBE981E81318800F7B4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29FBE971E81318800F7B4B9 /* Assets.xcassets */; };
 		F29FBE9B1E81318800F7B4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29FBE991E81318800F7B4B9 /* LaunchScreen.storyboard */; };
 		F29FBEAA1E81319E00F7B4B9 /* SVMEmployeeListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEA51E81319E00F7B4B9 /* SVMEmployeeListVC.m */; };
-		F29FBEAB1E81319E00F7B4B9 /* SVMEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEA91E81319E00F7B4B9 /* SVMEmployee.m */; };
 		F29FBEAE1E81340F00F7B4B9 /* SVMEmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEAD1E81340F00F7B4B9 /* SVMEmployeeCell.m */; };
 		F29FBEB21E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEB11E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m */; };
-		F29FBEBA1E814A1800F7B4B9 /* employee.json in Resources */ = {isa = PBXBuildFile; fileRef = F29FBEB91E814A1800F7B4B9 /* employee.json */; };
 		F29FBEBF1E81673900F7B4B9 /* SVMCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBEBE1E81673900F7B4B9 /* SVMCoreDataHelper.m */; };
 		F29FBECF1E816FB800F7B4B9 /* SVMSharedSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F29FBECE1E816FB800F7B4B9 /* SVMSharedSettings.m */; };
+		F2B5E2C51E82B8AC009ECD71 /* employee.json in Resources */ = {isa = PBXBuildFile; fileRef = F2B5E2C41E82B8AC009ECD71 /* employee.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,17 +33,15 @@
 		F29FBE9C1E81318800F7B4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F29FBEA41E81319E00F7B4B9 /* SVMEmployeeListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMEmployeeListVC.h; sourceTree = "<group>"; };
 		F29FBEA51E81319E00F7B4B9 /* SVMEmployeeListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMEmployeeListVC.m; sourceTree = "<group>"; };
-		F29FBEA81E81319E00F7B4B9 /* SVMEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMEmployee.h; sourceTree = "<group>"; };
-		F29FBEA91E81319E00F7B4B9 /* SVMEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMEmployee.m; sourceTree = "<group>"; };
 		F29FBEAC1E81340F00F7B4B9 /* SVMEmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMEmployeeCell.h; sourceTree = "<group>"; };
 		F29FBEAD1E81340F00F7B4B9 /* SVMEmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMEmployeeCell.m; sourceTree = "<group>"; };
 		F29FBEB01E81392A00F7B4B9 /* SVMEmployeeDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMEmployeeDetailsVC.h; sourceTree = "<group>"; };
 		F29FBEB11E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMEmployeeDetailsVC.m; sourceTree = "<group>"; };
-		F29FBEB91E814A1800F7B4B9 /* employee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employee.json; sourceTree = "<group>"; };
 		F29FBEBD1E81673900F7B4B9 /* SVMCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMCoreDataHelper.h; sourceTree = "<group>"; };
 		F29FBEBE1E81673900F7B4B9 /* SVMCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMCoreDataHelper.m; sourceTree = "<group>"; };
 		F29FBECD1E816FB800F7B4B9 /* SVMSharedSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMSharedSettings.h; sourceTree = "<group>"; };
 		F29FBECE1E816FB800F7B4B9 /* SVMSharedSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMSharedSettings.m; sourceTree = "<group>"; };
+		F2B5E2C41E82B8AC009ECD71 /* employee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employee.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +79,6 @@
 				F29FBE8C1E81318800F7B4B9 /* AppDelegate.m */,
 				F29FBEBB1E81672C00F7B4B9 /* Helper Classes */,
 				F29FBEA21E81319E00F7B4B9 /* Classes */,
-				F29FBEA61E81319E00F7B4B9 /* Models */,
 				F29FBE911E81318800F7B4B9 /* Main.storyboard */,
 				F29FBE971E81318800F7B4B9 /* Assets.xcassets */,
 				F29FBE991E81318800F7B4B9 /* LaunchScreen.storyboard */,
@@ -96,6 +92,7 @@
 		F29FBE881E81318800F7B4B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F2B5E2C41E82B8AC009ECD71 /* employee.json */,
 				F29FBE891E81318800F7B4B9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -119,24 +116,6 @@
 				F29FBEAD1E81340F00F7B4B9 /* SVMEmployeeCell.m */,
 			);
 			path = SVMEmployeeListVC;
-			sourceTree = "<group>";
-		};
-		F29FBEA61E81319E00F7B4B9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				F29FBEB91E814A1800F7B4B9 /* employee.json */,
-				F29FBEA71E81319E00F7B4B9 /* SVMEmployee */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		F29FBEA71E81319E00F7B4B9 /* SVMEmployee */ = {
-			isa = PBXGroup;
-			children = (
-				F29FBEA81E81319E00F7B4B9 /* SVMEmployee.h */,
-				F29FBEA91E81319E00F7B4B9 /* SVMEmployee.m */,
-			);
-			path = SVMEmployee;
 			sourceTree = "<group>";
 		};
 		F29FBEAF1E81391800F7B4B9 /* SVMEmployeeDetailsVC */ = {
@@ -235,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F29FBE9B1E81318800F7B4B9 /* LaunchScreen.storyboard in Resources */,
-				F29FBEBA1E814A1800F7B4B9 /* employee.json in Resources */,
+				F2B5E2C51E82B8AC009ECD71 /* employee.json in Resources */,
 				F29FBE981E81318800F7B4B9 /* Assets.xcassets in Resources */,
 				F29FBE931E81318800F7B4B9 /* Main.storyboard in Resources */,
 			);
@@ -249,7 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F29FBEAE1E81340F00F7B4B9 /* SVMEmployeeCell.m in Sources */,
-				F29FBEAB1E81319E00F7B4B9 /* SVMEmployee.m in Sources */,
 				F29FBEB21E81392A00F7B4B9 /* SVMEmployeeDetailsVC.m in Sources */,
 				F29FBE8D1E81318800F7B4B9 /* AppDelegate.m in Sources */,
 				F29FBEAA1E81319E00F7B4B9 /* SVMEmployeeListVC.m in Sources */,

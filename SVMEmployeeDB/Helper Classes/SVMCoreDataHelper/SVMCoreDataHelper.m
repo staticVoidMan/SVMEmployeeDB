@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+#import "Employee+CoreDataProperties.h"
+
 @implementation SVMCoreDataHelper
 
 +(NSManagedObjectContext *)managedObjectContext {
@@ -25,15 +27,15 @@
     [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSManagedObjectContext *context = [SVMCoreDataHelper managedObjectContext];
         
-        NSManagedObject *employee = [NSEntityDescription insertNewObjectForEntityForName:@"Employee"
-                                                                  inManagedObjectContext:context];
+        NSEntityDescription *entity = [NSEntityDescription entityForName:@"Employee" inManagedObjectContext:context];
+        Employee *employee = [[Employee alloc] initWithEntity:entity insertIntoManagedObjectContext:context];
         
-        [employee setValue:obj[@"employee_id"]          forKey:@"employeeID"];
-        [employee setValue:obj[@"first_name"]           forKey:@"firstName"];
-        [employee setValue:obj[@"last_name"]            forKey:@"lastName"];
-        [employee setValue:obj[@"profile_pic_url"]      forKey:@"profileImageUrl"];
-        [employee setValue:obj[@"designation_title"]    forKey:@"designationTitle"];
-        [employee setValue:obj[@"department"]           forKey:@"department"];
+        employee.employeeID         = obj[@"employee_id"];
+        employee.firstName          = obj[@"first_name"];
+        employee.lastName           = obj[@"last_name"];
+        employee.profileImageUrl    = obj[@"profile_pic_url"];
+        employee.designationTitle   = obj[@"designation_title"];
+        employee.department         = obj[@"department"];
         
         NSError *error = nil;
         if([context save:&error] == NO) {

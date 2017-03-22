@@ -7,7 +7,6 @@
 //
 
 #import "SVMEmployeeDetailsVC.h"
-#import "SVMEmployee.h"
 
 #import "SVMSharedSettings.h"
 

@@ -7,9 +7,6 @@
 //
 
 #import "SVMSharedSettings.h"
-
-#import "SVMEmployee.h"
-#import <CoreData/CoreData.h>
 #import <UIKit/UIKit.h>
 
 @implementation SVMSharedSettings
